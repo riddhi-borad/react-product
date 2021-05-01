@@ -2,37 +2,451 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row{
+margin-left :0 !important;
+margin-right: 0 !important;
+}
+body{
+  overflow-x: hidden;
+}
+.header{
+position: absolute;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+}
+.top-left{
+  height: 100px;
+width: 16%; 
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background: #FFFFFF;
+box-shadow: 2px 2px 4px rgba(0, 0, 0 , 0.25);
+}
+.top-right{
+  height: 100px;
+width: 84.5%;
+left: 224px;
+top: 0px;
+border-radius: 0px;
+
+  position: absolute;
+  left: 15.56%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  background: linear-gradient(130deg, #ffff 9%, #E1147D 9%);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0 , 0.25);
+  color:white
+  
+}
+.menu{
+  height:50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.fnt{
+  font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.menu-back{
+  text-align: center;
+background: #F0F0F0;
+padding:11px 0 0 0;
+}
+
+.fnz-20{
+  font-size: 20px  !important;
+}
+.cardback{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(225, 20, 125, 0.75) 0%, #E1147D 100%);
+border-radius: 10px;
+}
+.skinimg{
+  position: absolute;
+  top:142px;
+  right:0;
+}
+
+.last-visited{
+ 
+  background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.visited-head{
+  font-size:25px;
+  /* height:40px; */
+  background: linear-gradient(91.07deg, #E30C7A 1.83%, #C71570 100%);
+border-radius: 10px 10px 0px 0px;
+}
+
+.dt-clr{
+  background: #E1147D;
+border-radius: 8px;
+padding:2px 5px;
+}
+
+.diagnose-box{
+  background: #FFFFFF;
+box-shadow: -0.396847px 0.396847px 7.93695px -1.58739px rgba(0, 0, 0, 0.25);
+border-radius: 3.96847px;
+}
+.btn-view{
+  background: #E1147D !important;
+box-shadow: 0px 0.793695px 1.58739px rgba(0, 0, 0, 0.25) !important;
+border-radius: 1.58739px !important;
+font-size:10px !important;
+color:white !important;
+
+}
+.btn-product{
+  background: #E1147D !important;
+  box-shadow: 0px 0.793695px 1.58739px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 1.58739px !important;
+  font-size:14px !important;
+  color:white !important;
+  
+}
+.block-back{
+  background: linear-gradient(100.54deg, #FE41A2 0.54%, #D3066F 63.91%);
+}
+.footer-back{
+  height:100px;
+  background: #E1147D !important;
+  padding:40px 0;
+  color:white;
+  font-size: 20px;
+}
+.carosul-back{
+  overflow: hidden;
+  width:100%;
+  height:400px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F0F0F0 100%);
+}
+.line{
+  scroll-behavior: inherit;
+  height:520px;
+  width:1.5%;
+  background-color: #D3066F;
+  margin: -4% auto 0 auto;
+  transform: rotate(34deg)
+}
+.carosul-img{
+  position: absolute;
+  width: 338.22px  !important;
+  height: 287.78px;
+  top: 60px;
+  right: 379px;
+}
+.pc-screen{
+  position: absolute;
+    width: 319.22px  !important;
+    height: 204.78px;
+    right: 390px;
+    top: 64px;
+}
+.carousel-left{
+  position: absolute;
+  width: 440.33px  !important;
+    height: 269px;
+    top: 57px;
+    left: 135px;
+}
+.carousel-btn{
+  position:absolute;
+  left: 191px;
+  bottom: 154px;
+  background-color: white  !important;
+  font-size: 10px  !important;
+  color:#D3066F !important
+}
+.cir{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 184.7px;
+  top: 172px;
+  border: 2.50806px solid #FFFFFF;
+  border-radius: 50%;
+}
+.upload{
+  position: absolute;
+  width: 100px !important;
+    height: 90px;
+    top: 25%;
+    left: 37%;
+    
+}
+.txt{
+  position: absolute;
+  top:57%;
+  left:21%;
+}
+.upload-hd{
+  font-size: 20px;
+}
+upload-p{
+  font-size:10px ;
+}
+
+.caro-right{
+  font-size: 40px !important;
+  position: absolute;
+  top: 157px;
+  right: 44px;
+  color: #D3066F !important;
+}
+.caro-left{
+  font-size: 40px !important;
+  position: absolute;
+  top: 157px;
+  left: 44px;
+  color: #D3066F !important;
+}
+.owl-carousel .owl-dots{
+position: absolute;
+bottom:40px;
+left:0;
+right:0;
+}
+.owl-carousel button.owl-dot {
+  background-color:grey !important;
+  color: inherit;
+  border: 1px solid black !important;
+  padding: 5px !important;
+  font: inherit;
+  height:4px;
+  width:50px;
+  margin:12px;
+  border-radius: 20px !important;
+}
+.owl-carousel button.owl-dot.active{
+  background-color: #D3066F  !important;
+}
+
+@media screen and (min-width:400px) and (max-width:764px){
+  .top-left{
+    height: 100px;
+  width: 16%; 
+  
+  border-radius: 0px;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0 , 0.25);
+  }
+  .top-left img{
+    position: absolute;
+    left: -20px;
+    top: 13px;
+    width: 30px;
+
+  }
+  .top-right{
+    height: 100px;
+  width: 84.5%;
+  left: 224px;
+  top: 0px;
+  border-radius: 0px;
+  
+    position: absolute;
+    left: 15.56%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: linear-gradient(108deg, #ffff 9%, #E1147D 9%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0 , 0.25);
+    color:white
+    
+  }
+  .skinimg{
+    position: absolute;
+    top:308px;
+    right:0;
+    height:250px;
+  }
+  .last-visited{
+    margin-top:40px;
+  }
+  .md-txt{
+    padding-left:20px;
+  }
+
+  .carosul-back{
+    overflow: hidden;
+    width:100%;
+    height:300px;}
+
+  .line{
+    
+    
+    margin: -21% auto 0 auto;
+    
+  }
+  .carosul-img{
+    position: absolute;
+    width: 161.22px !important;
+    height: 197.78px;
+    top: 60px;
+    right: 1007px
+  }
+  .pc-screen{
+    position: absolute;
+    width: 151.22px !important;
+    height: 139.78px;
+    right: 1012px;
+    top: 64px;
+  }
+  .carousel-left{
+    position: absolute;
+    width: 226.33px !important;
+    height: 153px;
+    top: 71px;
+    left: 40px;
+  }
+  .carousel-btn{
+    position:absolute;
+    left: 66px;
+    bottom: 115px;
+    background-color: white !important;
+    font-size: 5px !important;
+    color: #D3066F !important;
+  }
+  .cir{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 59.7px;
+    top: 134px;
+    border: 2.50806px solid #FFFFFF;
+    border-radius: 50%;
+  }
+  .upload{
+    position: absolute;
+    width: 57px !important;
+      height: 57px;
+      top: 25%;
+      left: 37%;
+      
+  }
+  .txt{
+    position: absolute;
+    top:59%;
+    left:21%;
+  }
+  .upload-hd{
+    font-size: 10px;
+  }
+  .upload-p{
+    font-size:8px ;
+  }
+  .caro-right{
+    font-size: 30px !important;
+    position: absolute;
+    top: 139px;
+    right: 16px;
+    color: #D3066F !important;
+  }
+  .caro-left{
+    font-size: 30px !important;
+    position: absolute;
+    top: 141px;
+    left: 6px;
+    color: #D3066F !important;
+  }
+  .owl-carousel button.owl-dot {
+    width:25px;
   }
 }
+@media screen and (min-width:765px) and (max-width:950px){
+  .carosul-back{
+    overflow: hidden;
+    width:100%;
+    height:300px;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .line{ 
+    margin: -21% auto 0 auto;
   }
-  to {
-    transform: rotate(360deg);
+  .carosul-img{
+    position: absolute;
+    width: 161.22px !important;
+    height: 197.78px;
+    top: 60px;
+   left: 472px
+  }
+  .pc-screen{
+    position: absolute;
+    width: 151.22px !important;
+    height: 139.78px;
+   left: 476px;
+    top: 64px;
+  }
+  .carousel-left{
+    position: absolute;
+    width: 226.33px !important;
+    height: 153px;
+    top: 71px;
+    left: 40px;
+  }
+  .carousel-btn{
+    position:absolute;
+    left: 66px;
+    bottom: 115px;
+    background-color: white !important;
+    font-size: 5px !important;
+    color: #D3066F !important;
+  }
+  .cir{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 59.7px;
+    top: 134px;
+    border: 2.50806px solid #FFFFFF;
+    border-radius: 50%;
+  }
+  .upload{
+    position: absolute;
+    width: 57px !important;
+      height: 57px;
+      top: 25%;
+      left: 37%;
+      
+  }
+  .txt{
+    position: absolute;
+    top:59%;
+    left:21%;
+  }
+  .upload-hd{
+    font-size: 10px;
+  }
+  .upload-p{
+    font-size:8px ;
+  }
+  .caro-right{
+    font-size: 30px !important;
+    position: absolute;
+    top: 139px;
+    right: 16px;
+    color: #D3066F !important;
+  }
+  .caro-left{
+    font-size: 30px !important;
+    position: absolute;
+    top: 141px;
+    left: 6px;
+    color: #D3066F !important;
+  }
+  .owl-carousel button.owl-dot {
+    width:25px;
   }
 }
